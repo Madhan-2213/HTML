@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submitpage.html" method="get" enctype="multipart/form-data">
+    <div>
+        <label for = "username">User Name</label>
+
+        <input name="username" id="username" type="text" maxlength="6" required>
+    </div>
+
+    <div>
+        <label for = "password">Password</label>
+        <input name="password" id="password" type="password" minlength="3" required>
+    </div>
+    <div>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id = "dob" maxlength="4" min="1900" max="2024" >
+    </div>
+    <div>
+        <label for="email">email</label>
+        <input type="email" name="email" id = "email">
+    </div>
+    <div>
+        <label for="search">Search</label>
+        <input type="search" id="search" name="search">
+    </div>
+    <div>
+        <label for="about">About</label>
+        <textarea type = "text" name="about" id="about" rows="5" cols="30" placeholder="describe"></textarea>
+    </div>
+    <button type = "submit">Submit</button>
+    <button type = "reset">Reset</button>
+<div>
+    <label for="usernames"> UserName</label>
+    <input type="text" name = "username" id = "usernames" >
+</div>   
+<div>
+    <label for="YearofBirth">YearofBirth</label>
+    <input type="number" name="YearofBirth" id="YearofBirth" step = "2" min = "2000" max = "2010">
+</div>
+<div>
+   
+    <input type="checkbox" name = "checkbox">
+    <label for="checkbox">Terms and Condition</label>
+</div>
+<div>
+    <input type="radio" name="gender" value = "Male" id="male">
+    <label for="male">Male</label>
+</div>
+<div>
+    <input type="radio" name="gender" value="Female" id="female">
+    <label for="female">Female</label>
+</div>
+<label for="file">Resume</label>
+<input type="file" id = "file" name = "file" >
+<div>
+    <select name="State" id="State">
+        <option value="Tamilname"> TamilNadu</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+
+    </select>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8349.827872663556!2d77.13480011838733!3d11.508486135359982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8ded3227f56b9%3A0xe9b89fd448a51173!2sPasuvapalayam%2C%20Tamil%20Nadu%20638451!5e0!3m2!1sen!2sin!4v1737678609591!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+</div>
+</form>
+
+</body>
+</html>
